@@ -16,3 +16,5 @@ done
 #use one of these to check to see if the package is already installed on this machine
   #apt list --installed "$pkg" 2>/dev/null | grep -q "^$pkg/"
   #dpkg -s "$pkg" >/dev/null 2>&1 #dpkg is debian's package manager
+
+#This comment was made with my phone :)
