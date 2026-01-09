@@ -7,6 +7,7 @@ packages=(nmap vim nano)
 
 for i in "${packages[@]}"; do
   echo "$i"
-  sudo apt show $i
-  sudo apt install -y $i #set it up to see if "apt show" != null then install otherwise...
+  if [[sudo apt show $i > /dev/null]]; then
+      echo "$i is availible to download"
+    #sudo apt install -y $i #set it up to see if "apt show" != null then install otherwise...
 done
