@@ -12,3 +12,7 @@ for i in "${packages[@]}"; do
     #sudo apt install -y $i #set it up to see if "apt show" != null then install otherwise...
   fi
 done
+
+#use one of these to check to see if the package is already installed on this machine
+  #apt list --installed "$pkg" 2>/dev/null | grep -q "^$pkg/"
+  #dpkg -s "$pkg" >/dev/null 2>&1
