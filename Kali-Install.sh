@@ -7,7 +7,7 @@ packages=(nmap vim nano)
 
 for i in "${packages[@]}"; do
   echo "$i"
-  if apt-cache show $i > /dev/null; then
+  if apt-cache show $i > /dev/null; then #This checks to see if the package is availible to download
       echo "$i is availible to download"
     #sudo apt install -y $i #set it up to see if "apt show" != null then install otherwise...
   fi
