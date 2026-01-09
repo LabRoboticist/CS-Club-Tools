@@ -7,4 +7,5 @@ packages=(nmap vim nano)
 
 for i in "${packages[@]}"; do
   echo "$i"
+  sudo apt show $i
 done
