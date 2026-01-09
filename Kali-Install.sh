@@ -8,4 +8,5 @@ packages=(nmap vim nano)
 for i in "${packages[@]}"; do
   echo "$i"
   sudo apt show $i
+  sudo apt install -y $i #set it up to see if "apt show" != null then install otherwise...
 done
