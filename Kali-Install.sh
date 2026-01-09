@@ -5,6 +5,6 @@ echo "This script is to be used on Debian systems only, and preferabley on Kali 
 #packages=(nmap vim nano)
 #echo "The packages being instaled are ${packages[@]}."
 
-for i in ${packages[@]}; do
-  echo $i
+for i in "${packages[@]}"; do
+  echo "$i"
 done
