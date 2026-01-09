@@ -10,4 +10,5 @@ for i in "${packages[@]}"; do
   if [[sudo apt show $i > /dev/null]]; then
       echo "$i is availible to download"
     #sudo apt install -y $i #set it up to see if "apt show" != null then install otherwise...
+  fi
 done
