@@ -18,3 +18,5 @@ done
   #dpkg -s "$pkg" >/dev/null 2>&1 #dpkg is debian's package manager
 
 #This comment was made with my phone :)
+
+#ip address for our server 10.4.10.50:8006
