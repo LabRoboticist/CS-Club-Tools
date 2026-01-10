@@ -19,4 +19,4 @@ done
 
 #This comment was made with my phone :)
 
-#ip address for our server 10.4.10.50:8006
+#ip address for our server 10.4.10.50:8006 #port is 8006
